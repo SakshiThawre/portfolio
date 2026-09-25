@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>document.documentElement.classList.add('js');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Science Notes | Sakshi Thawre</title>
+  <meta name="description" content="Data Science notes and learning write-ups by Sakshi Thawre." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <img src="assets/images/profile.jpg" alt="Sakshi Thawre" class="navbar__logo-photo" />
+        SAKSHI THAWRE
+      </a>
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="blog.html" class="nav-link is-active">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li>
+            <a href="assets/Sakshi-Thawre-Resume.pdf" class="nav-link nav-link--resume" download="Sakshi-Thawre-Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+              Download Resume
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="page-header__bg" aria-hidden="true"></div>
+      <div class="container">
+        <p class="page-header__eyebrow">Writing</p>
+        <h1 class="page-header__title">Data Science Notes</h1>
+        <p class="page-header__desc">
+          This is where I'll document what I'm learning as I go through Data Science, Machine Learning
+          and AI concepts. Posts below are topics I plan to write about — nothing is published yet.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--3">
+
+          <article class="card blog-card reveal reveal-1">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="20" r="3.5" fill="#60A5FA" opacity="0.55"/><circle cx="48" cy="20" r="2.5" fill="#60A5FA" opacity="0.8"/><circle cx="81" cy="20" r="2.5" fill="#60A5FA" opacity="0.35"/><circle cx="114" cy="20" r="2.5" fill="#60A5FA" opacity="0.8"/><circle cx="147" cy="20" r="2.5" fill="#60A5FA" opacity="0.55"/><circle cx="180" cy="20" r="4.5" fill="#60A5FA" opacity="0.55"/><circle cx="213" cy="20" r="4.5" fill="#60A5FA" opacity="0.35"/><circle cx="246" cy="20" r="3.5" fill="#60A5FA" opacity="0.35"/><circle cx="279" cy="20" r="2.5" fill="#60A5FA" opacity="0.55"/><circle cx="15" cy="52" r="3.5" fill="#60A5FA" opacity="0.8"/><circle cx="48" cy="52" r="4.5" fill="#60A5FA" opacity="0.35"/><circle cx="81" cy="52" r="3.5" fill="#60A5FA" opacity="0.8"/><circle cx="114" cy="52" r="3.5" fill="#60A5FA" opacity="0.55"/><circle cx="147" cy="52" r="3.5" fill="#60A5FA" opacity="0.55"/><circle cx="180" cy="52" r="2.5" fill="#60A5FA" opacity="0.8"/><circle cx="213" cy="52" r="2.5" fill="#60A5FA" opacity="0.35"/><circle cx="246" cy="52" r="3.5" fill="#60A5FA" opacity="0.55"/><circle cx="279" cy="52" r="4.5" fill="#60A5FA" opacity="0.55"/><circle cx="15" cy="84" r="2.5" fill="#60A5FA" opacity="0.35"/><circle cx="48" cy="84" r="4.5" fill="#60A5FA" opacity="0.35"/><circle cx="81" cy="84" r="4.5" fill="#60A5FA" opacity="0.8"/><circle cx="114" cy="84" r="2.5" fill="#60A5FA" opacity="0.55"/><circle cx="147" cy="84" r="2.5" fill="#60A5FA" opacity="0.35"/><circle cx="180" cy="84" r="3.5" fill="#60A5FA" opacity="0.35"/><circle cx="213" cy="84" r="4.5" fill="#60A5FA" opacity="0.55"/><circle cx="246" cy="84" r="3.5" fill="#60A5FA" opacity="0.35"/><circle cx="279" cy="84" r="4.5" fill="#60A5FA" opacity="0.35"/><circle cx="15" cy="116" r="4.5" fill="#60A5FA" opacity="0.55"/><circle cx="48" cy="116" r="2.5" fill="#60A5FA" opacity="0.8"/><circle cx="81" cy="116" r="4.5" fill="#60A5FA" opacity="0.35"/><circle cx="114" cy="116" r="4.5" fill="#60A5FA" opacity="0.55"/><circle cx="147" cy="116" r="2.5" fill="#60A5FA" opacity="0.55"/><circle cx="180" cy="116" r="2.5" fill="#60A5FA" opacity="0.35"/><circle cx="213" cy="116" r="4.5" fill="#60A5FA" opacity="0.35"/><circle cx="246" cy="116" r="4.5" fill="#60A5FA" opacity="0.55"/><circle cx="279" cy="116" r="4.5" fill="#60A5FA" opacity="0.55"/></svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Data Science</span>
+              <h3 class="blog-card__title">Understanding Pandas</h3>
+              <p class="blog-card__desc">Placeholder — a planned write-up on core Pandas concepts for data manipulation.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-2">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="15,110 55,80 95,95 135,55 175,70 215,35 255,50 285,25" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="55" cy="80" r="4" fill="#93C5FD"/><circle cx="135" cy="55" r="4" fill="#93C5FD"/><circle cx="215" cy="35" r="4" fill="#93C5FD"/><circle cx="285" cy="25" r="4" fill="#3B82F6"/>
+      <polyline points="15,110 55,80 95,95 135,55 175,70 215,35 255,50 285,25 285,130 15,130" fill="#3B82F6" opacity="0.08" stroke="none"/>
+    </svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Data Analysis</span>
+              <h3 class="blog-card__title">Exploratory Data Analysis</h3>
+              <p class="blog-card__desc">Placeholder — a planned write-up on how I approach EDA on a new dataset.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-3">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg"><circle cx="14" cy="119" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="31" cy="101" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="40" cy="112" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="54" cy="109" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="60" cy="104" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="71" cy="107" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="90" cy="85" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="103" cy="80" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="110" cy="91" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="126" cy="82" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="139" cy="76" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="149" cy="77" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="157" cy="60" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="169" cy="76" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="187" cy="57" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="191" cy="62" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="204" cy="42" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="215" cy="42" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="227" cy="55" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="243" cy="40" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="257" cy="43" r="3" fill="#60A5FA" opacity="0.7"/><circle cx="269" cy="29" r="3" fill="#60A5FA" opacity="0.7"/><line x1="10" y1="120" x2="290" y2="20" stroke="#F8FAFC" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Machine Learning</span>
+              <h3 class="blog-card__title">Understanding Linear Regression</h3>
+              <p class="blog-card__desc">Placeholder — a planned write-up explaining linear regression from first principles.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-1">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+      <rect x="15" y="55" width="200" height="30" rx="4" fill="#3B82F6"/>
+      <rect x="218" y="55" width="67" height="30" rx="4" fill="#F59E0B"/>
+      <text x="115" y="75" font-family="Arial" font-size="13" fill="#F8FAFC" text-anchor="middle" font-weight="700">Train 75%</text>
+      <text x="251" y="75" font-family="Arial" font-size="11" fill="#0F172A" text-anchor="middle" font-weight="700">Test 25%</text>
+    </svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Machine Learning</span>
+              <h3 class="blog-card__title">Train/Test Split Explained</h3>
+              <p class="blog-card__desc">Placeholder — a planned write-up on why and how we split data before modeling.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-2">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15,100 Q60,30 105,90 T195,70 T285,95" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+      <path d="M15,95 C80,55 130,105 195,60 S 260,80 285,60" fill="none" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="15" cy="95" r="3.5" fill="#93C5FD"/><circle cx="90" cy="75" r="3.5" fill="#93C5FD"/><circle cx="180" cy="65" r="3.5" fill="#93C5FD"/><circle cx="285" cy="60" r="3.5" fill="#93C5FD"/>
+    </svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Machine Learning</span>
+              <h3 class="blog-card__title">Overfitting, Explained Simply</h3>
+              <p class="blog-card__desc">Placeholder — a planned write-up on recognizing and avoiding overfitting.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-3">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#3B82F6" stroke-width="1.5" opacity="0.6">
+        <line x1="50" y1="30" x2="140" y2="70"/><line x1="50" y1="30" x2="60" y2="110"/><line x1="140" y1="70" x2="60" y2="110"/>
+        <line x1="140" y1="70" x2="230" y2="35"/><line x1="140" y1="70" x2="220" y2="110"/><line x1="60" y1="110" x2="220" y2="110"/><line x1="230" y1="35" x2="270" y2="90"/><line x1="220" y1="110" x2="270" y2="90"/>
+      </g>
+      <g fill="#60A5FA"><circle cx="50" cy="30" r="6"/><circle cx="140" cy="70" r="7"/><circle cx="60" cy="110" r="5"/><circle cx="230" cy="35" r="5"/><circle cx="220" cy="110" r="6"/><circle cx="270" cy="90" r="5"/></g>
+    </svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Machine Learning</span>
+              <h3 class="blog-card__title">Feature Engineering Basics</h3>
+              <p class="blog-card__desc">Placeholder — a planned write-up on creating useful features from raw data.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-1">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="85" width="22" height="40" rx="2" fill="#60A5FA" opacity="0.5"/><rect x="50" y="55" width="22" height="70" rx="2" fill="#60A5FA" opacity="0.56"/><rect x="85" y="70" width="22" height="55" rx="2" fill="#60A5FA" opacity="0.62"/><rect x="120" y="30" width="22" height="95" rx="2" fill="#60A5FA" opacity="0.6799999999999999"/><rect x="155" y="60" width="22" height="65" rx="2" fill="#60A5FA" opacity="0.74"/><rect x="190" y="15" width="22" height="110" rx="2" fill="#60A5FA" opacity="0.8"/><rect x="225" y="75" width="22" height="50" rx="2" fill="#60A5FA" opacity="0.86"/><rect x="260" y="40" width="22" height="85" rx="2" fill="#60A5FA" opacity="0.9199999999999999"/></svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Reflections</span>
+              <h3 class="blog-card__title">What I Learned From a Dataset</h3>
+              <p class="blog-card__desc">Placeholder — reflections after working through a real dataset end-to-end.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal reveal-2">
+            <div class="blog-card__cover" aria-hidden="true"><svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#60A5FA" stroke-width="1.2" opacity="0.5">
+        <line x1="60" y1="40" x2="120" y2="30"/><line x1="120" y1="30" x2="190" y2="45"/><line x1="60" y1="40" x2="90" y2="90"/>
+        <line x1="120" y1="30" x2="150" y2="95"/><line x1="190" y1="45" x2="220" y2="100"/><line x1="90" y1="90" x2="150" y2="95"/>
+        <line x1="150" y1="95" x2="220" y2="100"/><line x1="90" y1="90" x2="60" y2="40"/><line x1="220" y1="100" x2="260" y2="55"/>
+        <line x1="190" y1="45" x2="260" y2="55"/>
+      </g>
+      <g fill="#3B82F6"><circle cx="60" cy="40" r="5"/><circle cx="120" cy="30" r="5"/><circle cx="190" cy="45" r="5"/><circle cx="90" cy="90" r="5"/><circle cx="150" cy="95" r="5"/><circle cx="220" cy="100" r="5"/><circle cx="260" cy="55" r="5"/></g>
+    </svg></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category">Concepts</span>
+              <h3 class="blog-card__title">Core Machine Learning Concepts</h3>
+              <p class="blog-card__desc">Placeholder — a running glossary of ML concepts as I learn them.</p>
+              <div class="blog-card__footer">
+                <span class="blog-card__date">Planned</span>
+                <span class="btn btn--small btn--outline btn--disabled">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <p class="footer__logo">SAKSHI THAWRE</p>
+        <p class="footer__role">Data Science Engineer — Fresher</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Explore</h4>
+        <a href="education.html">Education &amp; Achievements</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="projects.html">Projects</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Connect</h4>
+        <a href="https://github.com/SakshiThawre" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/sakshi-thawre-08355424b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thawresakshi@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 Sakshi Thawre. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

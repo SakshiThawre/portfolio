@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>document.documentElement.classList.add('js');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakshi Thawre | Data Science Engineer</title>
+  <meta name="description" content="Sakshi Thawre — fresher Data Science Engineer building practical skills in Python, Statistics, Machine Learning and Data Analysis through case studies and projects." />
+  <meta name="keywords" content="Sakshi Thawre, Data Science, Machine Learning, Python, Data Analysis, Data Science Engineer, Portfolio" />
+  <meta name="author" content="Sakshi Thawre" />
+  <meta property="og:title" content="Sakshi Thawre | Data Science Engineer" />
+  <meta property="og:description" content="Building data-driven solutions through Python, Machine Learning and practical Data Science." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page-dark">
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <img src="assets/images/profile.jpg" alt="Sakshi Thawre" class="navbar__logo-photo" />
+        SAKSHI THAWRE
+      </a>
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__links">
+          <li><a href="index.html" class="nav-link is-active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li>
+            <a href="assets/Sakshi-Thawre-Resume.pdf" class="nav-link nav-link--resume" download="Sakshi-Thawre-Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+              Download Resume
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/images/hero-bg.png" alt="" class="hero__bg-image" />
+        <div class="hero__bg-overlay"></div>
+        <div class="hero__grid"></div>
+        <div class="hero__glow hero__glow--one"></div>
+        <div class="hero__glow hero__glow--two"></div>
+
+        <!-- Subtle data/graph curve -->
+        <svg class="hero__curve" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 220 Q 80 60, 150 150 T 290 90 T 390 40" stroke="#60A5FA" stroke-width="1.5" stroke-opacity="0.45"/>
+          <circle cx="150" cy="150" r="3.5" fill="#60A5FA" fill-opacity="0.6"/>
+          <circle cx="290" cy="90" r="3.5" fill="#60A5FA" fill-opacity="0.6"/>
+          <circle cx="390" cy="40" r="3.5" fill="#60A5FA" fill-opacity="0.6"/>
+          <path d="M10 260 Q 100 200, 200 230 T 390 180" stroke="#3B82F6" stroke-width="1.2" stroke-opacity="0.3"/>
+        </svg>
+
+        <div class="hero__waves">
+          <svg class="hero__wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#1e40af" fill-opacity="0.3" d="M0,192L60,181.3C120,171,240,149,360,154.7C480,160,600,192,720,197.3C840,203,960,181,1080,165.3C1200,149,1320,139,1380,133.3L1440,128L1440,320L0,320Z"></path>
+          </svg>
+          <svg class="hero__wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#3B82F6" fill-opacity="0.4" d="M0,256L48,240C96,224,192,192,288,181.3C384,171,480,181,576,197.3C672,213,768,235,864,224C960,213,1056,171,1152,154.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L0,320Z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__greeting">Hello, I'm</p>
+          <h1 class="hero__name">SAKSHI THAWRE</h1>
+          <h2 class="hero__subtitle">Data Science Engineer</h2>
+          <p class="hero__description">
+            Building data-driven solutions through Python, Machine Learning and practical Data Science.
+          </p>
+          <div class="hero__buttons">
+            <a href="projects.html" class="btn btn--primary">Explore My Work</a>
+            <a href="case-studies.html" class="btn btn--outline">View Case Studies</a>
+            <!-- TODO: Replace # with your GitHub profile URL -->
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline">GitHub</a>
+            <a href="assets/Sakshi-Thawre-Resume.pdf" download="Sakshi-Thawre-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__image">
+          <div class="hero__photo-frame">
+            <img src="assets/images/profile.jpg" alt="Sakshi Thawre" class="hero__photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DATA SCIENCE JOURNEY ============ -->
+    <section class="section" id="journey">
+      <div class="container">
+        <span class="section__eyebrow reveal">The Path So Far</span>
+        <h2 class="section__title reveal">My Data Science Journey</h2>
+        <p class="section__subtitle reveal">
+          I'm building my skills step by step through structured learning, hands-on case studies and
+          projects, one dataset and one concept at a time.
+        </p>
+
+        <div class="approach-flow reveal">
+          <div class="approach-node">
+            <span class="approach-node__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+            </span>
+            <span class="approach-node__label">Python</span>
+          </div>
+          <span class="approach-connector" aria-hidden="true"></span>
+          <div class="approach-node">
+            <span class="approach-node__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
+            </span>
+            <span class="approach-node__label">Statistics</span>
+          </div>
+          <span class="approach-connector" aria-hidden="true"></span>
+          <div class="approach-node">
+            <span class="approach-node__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </span>
+            <span class="approach-node__label">Data Analysis</span>
+          </div>
+          <span class="approach-connector" aria-hidden="true"></span>
+          <div class="approach-node">
+            <span class="approach-node__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4.5 4.5 0 0 0-4.5 4.5v.09A4 4 0 0 0 6 14a4 4 0 0 0 1.5 7.5h9A4 4 0 0 0 18 14a4 4 0 0 0-1.5-7.41V6.5A4.5 4.5 0 0 0 12 2Z"/><path d="M12 6v16"/></svg>
+            </span>
+            <span class="approach-node__label">Machine Learning</span>
+          </div>
+          <span class="approach-connector" aria-hidden="true"></span>
+          <div class="approach-node">
+            <span class="approach-node__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
+            </span>
+            <span class="approach-node__label">Data Science</span>
+          </div>
+          <span class="approach-connector" aria-hidden="true"></span>
+          <div class="approach-node">
+            <span class="approach-node__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            </span>
+            <span class="approach-node__label">Deployment</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED CASE STUDIES ============ -->
+    <section class="section section--alt" id="featured-case-studies">
+      <div class="container">
+        <span class="section__eyebrow reveal">Applied Learning</span>
+        <h2 class="section__title reveal">Featured Case Studies</h2>
+        <p class="section__subtitle reveal">
+          Case studies I'm working through as part of my Data Science learning journey.
+        </p>
+
+        <div class="grid grid--3">
+          <article class="card work-card reveal reveal-1">
+            <div class="work-card__top">
+              <span class="icon-badge icon-badge--blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m17 8 5 5"/><path d="m22 8-5 5"/></svg>
+              </span>
+              <span class="work-card__number">Case Study 01</span>
+            </div>
+            <h3 class="work-card__title">Customer Churn Analysis</h3>
+            <p class="work-card__desc">Placeholder — replace with a short summary once this case study is complete.</p>
+            <div class="work-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+            </div>
+            <div class="work-card__links">
+              <a href="case-study-01.html" class="btn btn--small btn--outline">View Case Study</a>
+            </div>
+          </article>
+
+          <article class="card work-card reveal reveal-2">
+            <div class="work-card__top">
+              <span class="icon-badge icon-badge--green" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+              </span>
+              <span class="work-card__number">Case Study 02</span>
+            </div>
+            <h3 class="work-card__title">Sales Data Analysis</h3>
+            <p class="work-card__desc">Placeholder — replace with a short summary once this case study is complete.</p>
+            <div class="work-card__tags">
+              <span class="tag">EDA</span>
+              <span class="tag">Matplotlib</span>
+            </div>
+            <div class="work-card__links">
+              <a href="case-study-02.html" class="btn btn--small btn--outline">View Case Study</a>
+            </div>
+          </article>
+
+          <article class="card work-card reveal reveal-3">
+            <div class="work-card__top">
+              <span class="icon-badge icon-badge--purple" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z"/></svg>
+              </span>
+              <span class="work-card__number">Case Study 03</span>
+            </div>
+            <h3 class="work-card__title">Recommendation System</h3>
+            <p class="work-card__desc">Placeholder — replace with a short summary once this case study is complete.</p>
+            <div class="work-card__tags">
+              <span class="tag">SQL</span>
+              <span class="tag">Statistics</span>
+            </div>
+            <div class="work-card__links">
+              <a href="case-study-03.html" class="btn btn--small btn--outline">View Case Study</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__footer-link reveal">
+          <a href="case-studies.html" class="link-arrow">View All Case Studies →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PROJECTS ============ -->
+    <section class="section" id="featured-projects">
+      <div class="container">
+        <span class="section__eyebrow reveal">Hands-On Work</span>
+        <h2 class="section__title reveal">Machine Learning &amp; Data Projects</h2>
+        <p class="section__subtitle reveal">
+          A few projects I'm planning and building to apply what I'm learning.
+        </p>
+
+        <div class="grid grid--3">
+          <article class="card work-card reveal reveal-1">
+            <svg class="work-card__watermark" viewBox="0 0 90 60" fill="currentColor" aria-hidden="true">
+              <rect x="0" y="40" width="12" height="20"/><rect x="18" y="28" width="12" height="32"/><rect x="36" y="34" width="12" height="26"/><rect x="54" y="16" width="12" height="44"/><rect x="72" y="24" width="12" height="36"/>
+            </svg>
+            <div class="work-card__top">
+              <span class="icon-badge icon-badge--blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m17 8 5 5"/><path d="m22 8-5 5"/></svg>
+              </span>
+              <span class="status-badge status-badge--planned">Planned</span>
+            </div>
+            <h3 class="work-card__title">Customer Churn Prediction</h3>
+            <p class="work-card__desc">A machine learning project to predict whether a customer is likely to leave a service, based on customer-related features.</p>
+            <div class="work-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+            </div>
+            <div class="work-card__links">
+              <!-- TODO: Replace # with your project's GitHub repo URL once created -->
+              <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card work-card reveal reveal-2">
+            <svg class="work-card__watermark" viewBox="0 0 90 60" fill="currentColor" aria-hidden="true">
+              <rect x="0" y="40" width="12" height="20"/><rect x="18" y="28" width="12" height="32"/><rect x="36" y="34" width="12" height="26"/><rect x="54" y="16" width="12" height="44"/><rect x="72" y="24" width="12" height="36"/>
+            </svg>
+            <div class="work-card__top">
+              <span class="icon-badge icon-badge--red" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+              </span>
+              <span class="status-badge status-badge--planned">Planned</span>
+            </div>
+            <h3 class="work-card__title">Netflix Data Analysis</h3>
+            <p class="work-card__desc">Exploratory data analysis of Netflix content to study genres, trends and content distribution.</p>
+            <div class="work-card__tags">
+              <span class="tag">Pandas</span>
+              <span class="tag">Seaborn</span>
+            </div>
+            <div class="work-card__links">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card work-card reveal reveal-3">
+            <svg class="work-card__watermark" viewBox="0 0 90 60" fill="currentColor" aria-hidden="true">
+              <rect x="0" y="40" width="12" height="20"/><rect x="18" y="28" width="12" height="32"/><rect x="36" y="34" width="12" height="26"/><rect x="54" y="16" width="12" height="44"/><rect x="72" y="24" width="12" height="36"/>
+            </svg>
+            <div class="work-card__top">
+              <span class="icon-badge icon-badge--green" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+              </span>
+              <span class="status-badge status-badge--planned">Planned</span>
+            </div>
+            <h3 class="work-card__title">Sales Dashboard</h3>
+            <p class="work-card__desc">An interactive dashboard concept for analyzing sales performance, revenue trends and product metrics.</p>
+            <div class="work-card__tags">
+              <span class="tag">Streamlit</span>
+              <span class="tag">Pandas</span>
+            </div>
+            <div class="work-card__links">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__footer-link reveal">
+          <a href="projects.html" class="link-arrow">View All Projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CURRENTLY LEARNING ============ -->
+    <section class="section section--alt" id="currently-learning">
+      <div class="container">
+        <span class="section__eyebrow reveal">Right Now</span>
+        <h2 class="section__title reveal">Currently Learning</h2>
+
+        <div class="grid grid--4">
+          <div class="card learn-card reveal reveal-1">
+            <h3 class="learn-card__title">Data Science</h3>
+            <ul>
+              <li>Statistics &amp; Probability</li>
+              <li>Exploratory Data Analysis</li>
+            </ul>
+          </div>
+          <div class="card learn-card reveal reveal-2">
+            <h3 class="learn-card__title">Machine Learning</h3>
+            <ul>
+              <li>Supervised Learning</li>
+              <li>Unsupervised Learning</li>
+              <li>Model Evaluation</li>
+            </ul>
+          </div>
+          <div class="card learn-card reveal reveal-3">
+            <h3 class="learn-card__title">Programming</h3>
+            <ul>
+              <li>Python</li>
+              <li>Data Structures &amp; Algorithms</li>
+            </ul>
+          </div>
+          <div class="card learn-card reveal reveal-4">
+            <h3 class="learn-card__title">Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Streamlit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUICK PROFILE ============ -->
+    <section class="section section--tight" id="quick-profile">
+      <div class="container">
+        <div class="stats-row reveal">
+          <div class="stat-card">
+            <span class="stat-card__number">2026</span>
+            <span class="stat-card__label">Graduate</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">Data Science</span>
+            <span class="stat-card__label">Current Focus</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">ML / AI</span>
+            <span class="stat-card__label">Career Direction</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">2+</span>
+            <span class="stat-card__label">Internships</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <p class="footer__logo">SAKSHI THAWRE</p>
+        <p class="footer__role">Data Science Engineer — Fresher</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Explore</h4>
+        <a href="education.html">Education &amp; Achievements</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="projects.html">Projects</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Connect</h4>
+        <!-- TODO: Replace # with your GitHub profile URL -->
+        <a href="https://github.com/SakshiThawre" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <!-- TODO: Replace # with your LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/sakshi-thawre-08355424b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <!-- TODO: Replace with your real email address -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thawresakshi@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 Sakshi Thawre. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
